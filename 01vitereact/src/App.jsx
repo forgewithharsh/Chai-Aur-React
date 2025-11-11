@@ -1,6 +1,7 @@
 import Chai from "./chai.jsx";
 
 function App() {
+  const username = "chai aur code";
   return (
     <>
       <h1>
@@ -8,6 +9,7 @@ function App() {
         Hitesh Sir understanding every line of code, not just copy-paste 🔥 |
         Harsh Guleria
       </h1>
+      <h2>chai aur react | {username}</h2>
       <Chai />
     </>
   );
