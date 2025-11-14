@@ -8,7 +8,10 @@ function App() {
     if (counter >= 20) {
       throw new Error("Counter cannot go above 20");
     }
-    setCounter(counter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
+    setCounter((prevCounter) => prevCounter + 1);
   };
 
   const removeValue = () => {
