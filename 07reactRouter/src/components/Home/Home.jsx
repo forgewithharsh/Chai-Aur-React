@@ -9,7 +9,7 @@ export default function Home() {
           <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
               Download Now
-              <span className="hidden sm:block text-4xl">Lorem Ipsum</span>
+              <span className="hidden sm:block text-4xl text-orange-500">MasterJi</span>
             </h2>
 
             <Link
@@ -33,8 +33,8 @@ export default function Home() {
 
         <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
           <img
-            className="w-96"
-            src="https://i.ibb.co/5BCcDYB/Remote2.png"
+            className="w-150 h-80"
+            src="https://play-lh.googleusercontent.com/dBsCSoKxA1iwvX8zEZd46BRIWGZh3JoPptXw8N2z4OulaeTrzJNMVf9uJniBzBk0eKuFIv6ChlaayyeE9-ZN8Q=w832-h470-rw"
             alt="image1"
           />
         </div>
@@ -42,15 +42,19 @@ export default function Home() {
 
       <div className="grid  place-items-center sm:mt-20">
         <img
-          className="sm:w-96 w-48"
-          src="https://i.ibb.co/2M7rtLk/Remote1.png"
+          className="sm:w-110 h-58"
+          src="https://play-lh.googleusercontent.com/P6GeFZnkBgCgfc3yfhcRoT2LTqbcTbNKSv3Ev8-Ft08aeM0naLkGi_4npLKX6g3xnmQfBEqvDtXOQR5NV3jSbNw=w5120-h2880-rw"
           alt="image2"
         />
       </div>
 
-      <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
-        Lorem Ipsum Yojo
+      <h1 className="text-center text-2xl sm:text-5xl py-5 font-medium">
       </h1>
+      <p className="mb-10 text-gray-600">
+          <span className="text-orange-500">MasterJi</span> App is genuinely beneficial daily challenges, community
+          learning, and real consistency that actually improves your coding
+          skills. 🚀
+        </p>
     </div>
   );
 }

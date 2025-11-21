@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img
-                src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+                src="https://lh3.googleusercontent.com/a9wYON9wYXNEWI_0GkcVEDDuSzFzRVe8ag9c2b6JZmYVKgje71bNiNJfxm3hE-nn-CLaNiXu9ik_YkzC7YINDjn6q_nwUxVwnYKn"
                 className="mr-3 h-16"
                 alt="Logo"
               />
@@ -77,9 +77,9 @@ export default function Footer() {
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-gray-500 sm:text-center">
-            © 2023
+            © 2025
             <a href="https://hiteshchoudhary.com/" className="hover:underline">
-              hiteshchoudhary
+              harshguleria
             </a>
             . All Rights Reserved.
           </span>
